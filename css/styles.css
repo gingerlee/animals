@@ -2,6 +2,7 @@
 
 body {
   background-color: #eee;
+  font-family: sans-serif;
 }
 
 /* Header Styles */
@@ -13,13 +14,16 @@ body {
 }
 
 .header h1 {
-
+  font-size: 60px;
+  color: #555;
 }
 
 li {
   list-style-type: none;
   display: inline;
   margin-right: 30px;
+  float: left;
+
 }
 
 #logo {
@@ -36,6 +40,7 @@ li {
   background-color: #ccc;
   margin: 10px;
   padding: 10px;
+  color: #555;
 }
 
 .profile img {
@@ -43,4 +48,14 @@ li {
   height: 150px;
   width: 150px;
   background-color: #fff;
+}
+
+.profile h3 {
+  font-size: 40px;
+  margin-top: 0;
+  color: #111;
+}
+
+.profile h4 {
+  color: #444;
 }
