@@ -1,11 +1,46 @@
+/* General Styles */
+
+body {
+  background-color: #eee;
+}
+
+/* Header Styles */
+
+.header {
+  height: 250px;
+  background-color: #fff;
+  width: 100%;
+}
+
+.header h1 {
+
+}
+
 li {
   list-style-type: none;
   display: inline;
   margin-right: 30px;
 }
 
+#logo {
+  float: left;
+  height: 250px;
+}
+
+/* Adoption Profile Styles */
+
 .profile {
   float:left;
   width: 40%;
+  height: 400px;
   background-color: #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.profile img {
+  float: right;
+  height: 150px;
+  width: 150px;
+  background-color: #fff;
 }
