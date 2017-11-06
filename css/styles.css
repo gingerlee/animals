@@ -1,16 +1,18 @@
 /* General Styles */
 
 body {
-  background-color: #eee;
+  background-image: url(../img/doge.jpg);
   font-family: sans-serif;
 }
 
 /* Header Styles */
 
+
 .header {
   height: 250px;
-  background-color: #fff;
+  background-color: #f4b942;
   width: 100%;
+  text-align: center;
 }
 
 .header h1 {
