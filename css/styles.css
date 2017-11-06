@@ -1,5 +1,9 @@
 /* General Styles */
 
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
 body {
   background-color: #eee;
   font-family: sans-serif;
